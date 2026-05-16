@@ -1,11 +1,10 @@
-﻿namespace ContactBook
+﻿namespace ContactBook;
+
+public class Program
 {
-    public class Program
+    public static void Main()
     {
-        public static void Main()
-        {
-           var cb = new ContactBook();
-           cb.Start();
-        }
+        var cb = new ContactBook(ContactSeed.Contacts);
+        cb.Start();
     }
 }

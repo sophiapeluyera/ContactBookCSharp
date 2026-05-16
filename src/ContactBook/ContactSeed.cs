@@ -1,0 +1,97 @@
+namespace ContactBook;
+
+using System.Collections.Generic;
+
+public static class ContactSeed
+{
+    public static List<Contact> Contacts = new List<Contact>
+    {
+        new Contact("Marcos", "Vega", "212-555-1101", "marcos.vega@gmail.com"),
+        new Contact("Daniela", "Soto", "305-555-4412", "daniela.soto@outlook.com"),
+        new Contact("Ricardo", "Figueroa", "787-555-7721", "ricardo.f@gmail.com"),
+        new Contact("Valeria", "Rosado", "646-555-9912", ""),
+        new Contact("Javier", "Mendez", "", "javier.mendez@icloud.com"),
+        new Contact("Camila", "Torres", "213-555-5522", "camila.t@hotmail.com"),
+        new Contact("Esteban", "Colon", "415-555-6611", ""),
+        new Contact("Lucia", "Rivera", "", "lucia.rivera@gmail.com"),
+        new Contact("Adrian", "Serrano", "939-555-8822", "adrian.s@proton.me"),
+        new Contact("Mariana", "Quinones", "718-555-4411", "mariana.q@gmail.com"),
+
+        new Contact("Hector", "Padilla", "504-555-7723", "hector.p@outlook.com"),
+        new Contact("Sofia", "Acosta", "", ""),
+        new Contact("Ramon", "Delgado", "602-555-3311", "ramon.d@icloud.com"),
+        new Contact("Elena", "Carrasquillo", "702-555-5599", ""),
+        new Contact("Mateo", "Burgos", "", "mateo.b@yahoo.com"),
+        new Contact("Isabel", "Crespo", "408-555-2212", "isabel.c@gmail.com"),
+        new Contact("Fernando", "Roldan", "510-555-8899", ""),
+        new Contact("Gabriela", "Pagan", "", "gabriela.p@outlook.com"),
+        new Contact("Luis", "Santiago", "650-555-7711", "luis.s@gmail.com"),
+        new Contact("Paula", "Marrero", "323-555-5521", ""),
+
+        new Contact("Oscar", "Navarro", "206-555-6612", "oscar.n@gmail.com"),
+        new Contact("Bianca", "Rosario", "", ""),
+        new Contact("Cristian", "Alvarado", "617-555-8823", "cristian.a@proton.me"),
+        new Contact("Julia", "Cordero", "857-555-4412", ""),
+        new Contact("Rafael", "Cruzado", "", "rafael.c@gmail.com"),
+        new Contact("Diana", "Melendez", "214-555-7722", "diana.m@icloud.com"),
+        new Contact("Pablo", "Ferrer", "469-555-6611", ""),
+        new Contact("Nicole", "Vargas", "", "nicole.v@yahoo.com"),
+        new Contact("Sebastian", "Otero", "512-555-9911", "sebastian.o@gmail.com"),
+        new Contact("Carla", "Lebron", "737-555-7721", ""),
+
+        new Contact("Ivan", "Cardona", "404-555-1121", "ivan.c@gmail.com"),
+        new Contact("Angela", "Fontanez", "", ""),
+        new Contact("Diego", "Arroyo", "470-555-6622", "diego.a@outlook.com"),
+        new Contact("Rebeca", "Matos", "678-555-8833", ""),
+        new Contact("Tomas", "Sepulveda", "", "tomas.s@gmail.com"),
+        new Contact("Patricia", "Almodovar", "770-555-9911", "patricia.a@hotmail.com"),
+        new Contact("Jorge", "Barreto", "901-555-5522", ""),
+        new Contact("Melanie", "Cintron", "", "melanie.c@gmail.com"),
+        new Contact("Victor", "Lugo", "615-555-6612", "victor.l@icloud.com"),
+        new Contact("Adriana", "Fuentes", "629-555-8821", ""),
+
+        new Contact("Hugo", "Zambrana", "503-555-2211", "hugo.z@gmail.com"),
+        new Contact("Carolina", "Rivas", "", ""),
+        new Contact("Emilio", "Salgado", "971-555-7723", "emilio.s@yahoo.com"),
+        new Contact("Natalia", "Arzuaga", "541-555-6613", ""),
+        new Contact("Felipe", "Cotto", "", "felipe.c@gmail.com"),
+        new Contact("Lorena", "Miranda", "208-555-8822", "lorena.m@outlook.com"),
+        new Contact("Marco", "Del Valle", "986-555-3311", ""),
+        new Contact("Rosa", "Alvarez", "", "rosa.a@gmail.com"),
+        new Contact("Enrique", "Sola", "801-555-5522", "enrique.s@proton.me"),
+        new Contact("Daniela", "Roldan", "385-555-7711", ""),
+
+        new Contact("Sergio", "Cabrera", "702-555-9911", "sergio.c@gmail.com"),
+        new Contact("Irene", "Negron", "", ""),
+        new Contact("Alonso", "Bermudez", "775-555-2212", "alonso.b@icloud.com"),
+        new Contact("Marta", "Casanova", "725-555-6611", ""),
+        new Contact("Gustavo", "Pacheco", "", "gustavo.p@gmail.com"),
+        new Contact("Elisa", "Morel", "480-555-7722", "elisa.m@hotmail.com"),
+        new Contact("Ruben", "Santos", "602-555-4411", ""),
+        new Contact("Tamara", "Del Rio", "", "tamara.d@yahoo.com"),
+        new Contact("Andres", "Valentin", "623-555-8824", "andres.v@gmail.com"),
+        new Contact("Claudia", "Benitez", "928-555-6614", ""),
+
+        new Contact("Miguel", "Arce", "215-555-7721", "miguel.a@gmail.com"),
+        new Contact("Vanessa", "Cruz", "", ""),
+        new Contact("Hector", "Lozada", "267-555-3313", "hector.l@outlook.com"),
+        new Contact("Lourdes", "Feliciano", "445-555-5524", ""),
+        new Contact("Omar", "Soto", "", "omar.soto@gmail.com"),
+        new Contact("Yolanda", "Pizarro", "610-555-7724", "yolanda.p@icloud.com"),
+        new Contact("Raul", "Alicea", "484-555-6615", ""),
+        new Contact("Kristina", "Maldonado", "", "kristina.m@gmail.com"),
+        new Contact("Eduardo", "Carrasquel", "412-555-9911", "eduardo.c@yahoo.com"),
+        new Contact("Selena", "Borges", "724-555-5525", ""),
+
+        new Contact("Armando", "Fajardo", "651-555-6613", "armando.f@gmail.com"),
+        new Contact("Julieta", "Solares", "", ""),
+        new Contact("Mauricio", "Pinto", "763-555-8825", "mauricio.p@outlook.com"),
+        new Contact("Rita", "Candelaria", "952-555-3319", ""),
+        new Contact("Pedro", "Alonso", "", "pedro.a@gmail.com"),
+        new Contact("Cecilia", "Matos", "218-555-4412", "cecilia.m@hotmail.com"),
+        new Contact("Gerson", "Lopez", "320-555-7715", ""),
+        new Contact("Tania", "Rincon", "", "tania.r@gmail.com"),
+        new Contact("Cristobal", "Mora", "507-555-8826", "cristobal.m@proton.me"),
+        new Contact("Elisa", "Rendon", "612-555-9937", "")
+    };
+}
